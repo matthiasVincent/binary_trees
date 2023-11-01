@@ -1,8 +1,9 @@
-#BINARY TREES
+# BINARY TREES
 in this project, we explored the data structure, Binary Tree-a hierarchical and non-linear data structure which finds application in areas like binary search tree, application that make use of hierarchy etc. The following data structures and types for binary trees were used in this project.
 
-#Basic Binary tree
-```/**
+## Basic Binary tree
+```
+/**
  * struct binary_tree_s - Binary tree node
  *
  * @n: Integer stored in the node
@@ -18,69 +19,69 @@ struct binary_tree_s
     struct binary_tree_s *right;
 };
 
-typedef struct binary_tree_s binary_tree_t;```
-
-##Binary Search tree
+typedef struct binary_tree_s binary_tree_t;
+```
+## Binary Search tree
 ```typedef struct binary_tree_s bst_t;```
-##AVL Tree
+## AVL Tree
 ```typedef struct binary_tree_s avl_t ;```
-##Max Binary Heap
+## Max Binary Heap
 ```typedef struct binary_tree_s heap_t;```
 
-##Print Function
+## Print Function
  the print function found [here](https://github.com/alx-tools/0x1C.c) was used for the pretty visualization of the output of the tasks implemented
  
- ##Tasks
- * [0-New Node](./0-binary_tree_node.c)
+ # Tasks
+ ## [0-New Node](./0-binary_tree_node.c)
  function that creates a binary tree node using the prototype ```binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);```. `parent` is the pointer to the parent node, `value` is the data stored in the node. return pointer to the new node or `NULL` on failure
  
- * [1. Insert left](./1-binary_tree_insert_left.c)
+ ## [1. Insert left](./1-binary_tree_insert_left.c)
  Insert left child node, becomes the left child of the given parent while the previous left child(if any) becomes the left child of the node created. prototype is ```binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);```
  
-  * [2. Insert left](./2-binary_tree_insert_right.c)
+  ## [2. Insert left](./2-binary_tree_insert_right.c)
  Insert right child node, becomes the right child of the given parent while the previous right child(if any) becomes the right child of the node created. prototype is ```binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);```
  
- *[3. Delete](./3-binary_tree_delete)
+ ## [3. Delete](./3-binary_tree_delete)
  Delete a binary tree.
  prototype: ```void binary_tree_delete(binary_tree_t *tree);```
  
- *[4. Is Left](./4-binary_tree_is_left.c)
+ ## [4. Is Left](./4-binary_tree_is_left.c)
  Check whether the given node is a left child
  prototype: ```int binary_tree_is_leaf(const binary_tree_t *node);```
  
- *[5. Is root](./5-binary_tree_is_root.c)
+ ## [5. Is root](./5-binary_tree_is_root.c)
  Check whether the given node is the root node.
  prototype: ```int binary_tree_is_root(const binary_tree_t *node);```
  
- *[6. Pre-order traversal](./6-binary_tree_preorder.c)
+ ## [6. Pre-order traversal](./6-binary_tree_preorder.c)
  Traverse a binary tree using pre-order traversal.
  prototype: ```void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));```
  
- *[7. In-order traversal](./7-binary_tree_inorder.c)
+ ## [7. In-order traversal](./7-binary_tree_inorder.c)
  Traverse a binary tree using in-order traversal.
  prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));```
  
- *[8. Post-order traversal](./8-binary_tree_postorder.c)
+ ## [8. Post-order traversal](./8-binary_tree_postorder.c)
  Traverse a binary tree using post-order traversal.
  prototype: ```void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));```
  
- *[9. Height](./9-binary_tree_height.c)
+ ## [9. Height](./9-binary_tree_height.c)
  Measure the height of  a binary tree
  prototype: ```size_t binary_tree_height(const binary_tree_t *tree);```
  
- *[10. Depth](./10-binary_tree_depth.c)
+ ## [10. Depth](./10-binary_tree_depth.c)
  Measure the depth of a node in a binary tree
  prototype: ```size_t binary_tree_depth(const binary_tree_t *tree);```
  
- *[11. Size](./11-binary_tree_size.c)
+ ## [11. Size](./11-binary_tree_size.c)
 Measure the size of a binary tree
 prototype: ```size_t binary_tree_size(const binary_tree_t *tree);```
 
-*[12. Leaves](./12-binary_tree_leaves.c)
+## [12. Leaves](./12-binary_tree_leaves.c)
 Count leaves in a binary tree
 prototype: ```size_t binary_tree_leaves(const binary_tree_t *tree);```
 
-*[13. Nodes](./13-binary_tree_nodes.c)
+## [13. Nodes](./13-binary_tree_nodes.c)
 Node with atleast 1 child in a binary tree
 prototype: ```size_t binary_tree_nodes(const binary_tree_t *tree);```
 
