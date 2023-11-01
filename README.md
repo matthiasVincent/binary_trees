@@ -1,7 +1,7 @@
-##BINARY TREES
+#BINARY TREES
 in this project, we explored the data structure, Binary Tree-a hierarchical and non-linear data structure which finds application in areas like binary search tree, application that make use of hierarchy etc. The following data structures and types for binary trees were used in this project.
 
-*Basic Binary tree
+#Basic Binary tree
 ```/**
  * struct binary_tree_s - Binary tree node
  *
@@ -20,14 +20,14 @@ struct binary_tree_s
 
 typedef struct binary_tree_s binary_tree_t;```
 
-*Binary Search tree
+##Binary Search tree
 ```typedef struct binary_tree_s bst_t;```
-*AVL Tree
+##AVL Tree
 ```typedef struct binary_tree_s avl_t ;```
-*Max Binary Heap
+##Max Binary Heap
 ```typedef struct binary_tree_s heap_t;```
 
-*Print Function
+##Print Function
  the print function found [here](https://github.com/alx-tools/0x1C.c) was used for the pretty visualization of the output of the tasks implemented
  
  ##Tasks
