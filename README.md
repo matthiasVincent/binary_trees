@@ -89,7 +89,7 @@ prototype: ```size_t binary_tree_nodes(const binary_tree_t *tree);```
 Measure the balance factor of a binary tree.
 prototype: ```int binary_tree_balance(const binary_tree_t *tree);```
 
-## [15. Is full] (./15-binary_tree_is_full.c)
+## [15. Is full](./15-binary_tree_is_full.c)
 Check if a binary tree is full
 prototype: ```int binary_tree_is_full(const binary_tree_t *tree);```
 
@@ -146,10 +146,10 @@ Removes a node from a BST.
 prototype: `bst_t *bst_remove(bst_t *root, int value);`
 	
 ## [29. Big O #BST](./115-0)
-Contains the Big O per line of the following operations on BST.
-	* Insert the value n
-	* remove the node with the value n
-	* search for a node in a BST of size n
+Contains the Big O per line of the following operations on BST:
+* Insert the value
+* remove the node with the value n
+* search for a node in a BST of size n
 
 ## [30. Is AVL](./120-binary_tree_is_avl.c)
 Check if a binary tree is a valid AVL tree.
@@ -174,9 +174,9 @@ prototype: `avl_t *sorted_array_to_avl(int *array, size_t size);`
 	
 ## [35. Big O # AVL Tree](./125-0)
 Contains the Big O per line of the following operations on AVL.
-	* Insert the value n
-	* remove the node with the value n
-	* search for a node in a BST of size n
+* Insert the value n
+* remove the node with the value n
+* search for a node in a BST of size n
 	
 ## [36. is Binary Heap](./130-binary_tree_is_heap.c)
 Check if a binary tree is a valid Max Binary Heap.
@@ -199,7 +199,7 @@ Converts a Binary Max Heap to a sorted array of integers.
 prototype: `int *heap_to_sorted_array(heap_t *heap, size_t *size);`
 	
 ## [41. Big O #Binary Heap](./135-0)
-Contains the Big O per line of the following operations Binary Heap.
-	* Insert the value n
-	* Extracting the root node
-	* search for a node in a binary heap of size n
+Contains the Big O per line of the following operations Binary Heap:
+* Insert the value n
+* Extracting the root node
+* search for a node in a binary heap of size n
